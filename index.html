@@ -2,19 +2,32 @@
   <head>
     <meta charset="utf-8">
     <title>Preloader</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/global.css">
   </head>
 
   <body>
     <div class="background">
       <div class="loading">
-        <div class="percentage">0%</div>
-        <div class="progress-bar">
-          <div class="progress"></div>
+
+        <!-- percentage -->
+        <div class="show-percentage">
+          <div class="percentage-container">
+            <div class="percentage">0%</div>
+          </div>
         </div>
+
+        <!-- progress -->
+        <div class="show-progress">
+          <div class="progress-container">
+            <div class="progress"></div>
+          </div>
+        </div>
+
+        <!-- add more -->
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="src/scripts/script.js" type="module"></script>
   </body>
 </html>
