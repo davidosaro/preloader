@@ -1,4 +1,4 @@
-## Preloader Project Readme
+## PRELOADER
 
 A preloader, also known as a loading screen or spinner, is a visual element that appears on a webpage while content is being loaded in the background. The primary goal of this preloader is to enhance user experience by providing a smoother transition between the initial page load and the presentation of the actual content, giving it a more professional and personalized look and feel.
 
