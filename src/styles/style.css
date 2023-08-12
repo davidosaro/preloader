@@ -1,15 +1,19 @@
 .show-percentage {
   display: none;
+  min-width: 180px;
 }
 .show-progress {
   display: none;
 }
 
 /* PERCENTAGE >>>> */
-.percentage {
+.percentage-text {
   color: white;
   text-align: center;
+  font-size: 100px;
+  font-family: 'Roboto Mono', monospace;
 }
+
 /* <<<< PERCENTAGE */
 
 
