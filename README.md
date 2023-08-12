@@ -11,13 +11,13 @@ The aim of the Preloader Splash Screen Loader project is to provide a seamless a
 # Key Features
 Customizable Visuals: The preloader splash screen is fully customizable to match the branding and style of the application. You can choose colors, fonts, logos, and animations that reflect your application's identity.
 
-# Smooth Transitions: The loader ensures a smooth transition from the splash screen to the main application interface once the loading process is complete. Users won't experience sudden jumps or visual glitches.
+Smooth Transitions: The loader ensures a smooth transition from the splash screen to the main application interface once the loading process is complete. Users won't experience sudden jumps or visual glitches.
 
-# Progress Indication: Optionally, the preloader can display progress indicators, informing users about the loading status and expected wait time. This transparency helps manage user expectations.
+Progress Indication: Optionally, the preloader can display progress indicators, informing users about the loading status and expected wait time. This transparency helps manage user expectations.
 
-# Background Tasks: The loader is designed to handle background tasks efficiently. It manages resource loading, data fetching, and any other initialization processes while keeping the user informed and engaged.
+Background Tasks: The loader is designed to handle background tasks efficiently. It manages resource loading, data fetching, and any other initialization processes while keeping the user informed and engaged.
 
-# Responsive Design: The preloader is responsive, adapting to different screen sizes and orientations, ensuring a consistent experience across various devices.
+Responsive Design: The preloader is responsive, adapting to different screen sizes and orientations, ensuring a consistent experience across various devices.
 
 
 ## Thought process / Development Process
