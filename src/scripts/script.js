@@ -7,6 +7,7 @@ import {
   animatePercentage, 
   animateProgress,
 } from "./animation.js"
+
 // Elements declarations
 const Elements = {
   percentage: document.querySelector('.percentage'),
@@ -56,6 +57,8 @@ setTimeout(()=> {
 // showPreloader({
 //   'show': [
 //     'progress', 
-//     'percentage'
+//     'percentage',
 //   ]
+//    'position': 'bottom-left',
+//    'loadOut': 'fade'
 // });
