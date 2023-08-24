@@ -45,14 +45,18 @@ function showPreloader(modifications = {}) {
   }
 }
 // add color requirement funciton
-setTimeout(()=> {
-  showPreloader({
-    'show': ['percentage'],
-    'position': 'bottom-left',
-    'loadOut': 'fade'
-  });
-}, loadInDelay)
+export default function Preloader(options) {
+  console.log("Preloader Started >>>>")
+  setTimeout(()=> {
+    showPreloader(options);
+  }, loadInDelay)
+}
 
+// Preloader({
+//   'show': ['percentage'],
+//   'position': 'bottom-left',
+//   'loadOut': 'fade'
+// })
 
 // showPreloader({
 //   'show': [

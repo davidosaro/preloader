@@ -1,0 +1,26 @@
+{
+  "name": "@davidosaro/website-preloader",
+  "version": "1.0.2",
+  "description": "This is a one-time preloader for webpages",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint src",
+    "precommit": "npm run lint && npm run test",
+    "prepublish": "npm run lint && npm run test && babel src -d lib",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidosaro/preloader.git"
+  },
+  "keywords": [
+    "preloader"
+  ],
+  "author": "David Osaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidosaro/preloader/issues"
+  },
+  "homepage": "https://github.com/davidosaro/preloader#readme"
+}
